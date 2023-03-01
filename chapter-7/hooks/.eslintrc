@@ -6,6 +6,7 @@
     "react/jsx-uses-vars": "error",
     "react/jsx-uses-react": "error",
     "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
+    "no-unused-vars": ["warn"],
     "import/no-unresolved": [2, { "caseSensitive": false }]
   },
   "extends": [
