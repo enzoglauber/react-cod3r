@@ -1,4 +1,3 @@
-
 .Content {
   display: flex;
   flex-grow: 1;
@@ -9,5 +8,5 @@
 .Content > * {
   display: flex;
   flex: 1;
-  flex-direction: columnç
+  flex-direction: column;
 }

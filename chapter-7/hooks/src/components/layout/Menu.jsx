@@ -1,9 +1,9 @@
-import React from 'react'
-import './Menu.css'
+import React from 'react';
+import './Menu.css';
 
-import { Link } from 'react-router-dom'
+import { Link } from 'react-router-dom';
 
-const Menu = props => (
+const Menu = () => (
   <aside className="Menu">
     <nav>
       <ul>
@@ -37,6 +37,6 @@ const Menu = props => (
       </ul>
     </nav>
   </aside>
-)
+);
 
-export default Menu
+export default Menu;

@@ -1,15 +1,12 @@
-import React from 'react'
-import PageTitle from '../../components/layout/PageTitle'
+import React from 'react';
+import PageTitle from '../../components/layout/PageTitle';
 
-const UseMemo = (props) => {
+const UseMemo = () => {
   return (
     <div className="UseMemo">
-      <PageTitle
-        title="Hook UseMemo"
-        subtitle="Retorna um valor memoizado!"
-      />
+      <PageTitle title="Hook UseMemo" subtitle="Retorna um valor memoizado!" />
     </div>
-  )
-}
+  );
+};
 
-export default UseMemo
+export default UseMemo;

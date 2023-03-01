@@ -1,19 +1,19 @@
-import React from 'react'
-import { Route, Switch } from 'react-router-dom'
-import './Content.css'
+import React from 'react';
+import { Route, Switch } from 'react-router-dom';
+import './Content.css';
 
-import Home from '../../views/examples/Home'
-import NotFound from '../../views/examples/NotFound'
-import UseCallback from '../../views/examples/UseCallback'
-import UseContext from '../../views/examples/UseContext'
-import UseCustom from '../../views/examples/UseCustom'
-import UseEffect from '../../views/examples/UseEffect'
-import UseMemo from '../../views/examples/UseMemo'
-import UseReducer from '../../views/examples/UseReducer'
-import UseRef from '../../views/examples/UseRef'
-import UseState from '../../views/examples/UseState'
+import Home from '../../views/examples/Home';
+import NotFound from '../../views/examples/NotFound';
+import UseCallback from '../../views/examples/UseCallback';
+import UseContext from '../../views/examples/UseContext';
+import UseCustom from '../../views/examples/UseCustom';
+import UseEffect from '../../views/examples/UseEffect';
+import UseMemo from '../../views/examples/UseMemo';
+import UseReducer from '../../views/examples/UseReducer';
+import UseRef from '../../views/examples/UseRef';
+import UseState from '../../views/examples/UseState';
 
-const Content = props => (
+const Content = () => (
   <main className="Content">
     <Switch>
       <Route exact path="/">
@@ -48,6 +48,6 @@ const Content = props => (
       </Route>
     </Switch>
   </main>
-)
+);
 
-export default Content
+export default Content;

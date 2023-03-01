@@ -1,15 +1,12 @@
-import React from 'react'
-import PageTitle from '../../components/layout/PageTitle'
+import React from 'react';
+import PageTitle from '../../components/layout/PageTitle';
 
-const UseReducer = (props) => {
+const UseReducer = () => {
   return (
     <div className="UseReducer">
-      <PageTitle
-        title="Hook UseReducer"
-        subtitle="Uma outra forma de ter estado em componentes funcionais!"
-      />
+      <PageTitle title="Hook UseReducer" subtitle="Uma outra forma de ter estado em componentes funcionais!" />
     </div>
-  )
-}
+  );
+};
 
-export default UseReducer
+export default UseReducer;

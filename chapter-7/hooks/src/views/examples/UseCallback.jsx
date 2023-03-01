@@ -1,15 +1,12 @@
-import React from 'react'
-import PageTitle from '../../components/layout/PageTitle'
+import React from 'react';
+import PageTitle from '../../components/layout/PageTitle';
 
-const UseCallback = (props) => {
+const UseCallback = () => {
   return (
     <div className="UseCallback">
-      <PageTitle
-        title="Hook UseCallback"
-        subtitle="Retorna uma função memoizada!"
-      />
+      <PageTitle title="Hook UseCallback" subtitle="Retorna uma função memoizada!" />
     </div>
-  )
-}
+  );
+};
 
-export default UseCallback
+export default UseCallback;
