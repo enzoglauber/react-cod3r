@@ -6,6 +6,7 @@
     "react/jsx-uses-vars": "error",
     "react/jsx-uses-react": "error",
     "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
+    "multiline-ternary": 0,
     "no-unused-vars": ["warn"],
     "import/no-unresolved": [2, { "caseSensitive": false }]
   },
@@ -15,6 +16,7 @@
     "plugin:react/recommended",
     "plugin:jsx-a11y/recommended",
     "plugin:react-hooks/recommended",
+    "plugin:prettier/recommended",
     "prettier"
   ],
   "plugins": ["react", "import", "jsx-a11y"],
